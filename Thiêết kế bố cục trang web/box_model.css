@@ -1,0 +1,13 @@
+.main {
+    width: 50%;
+    height: 500px;
+    border: 10px solid;
+    border-color: blue red #221da1 black ;
+    margin: auto;
+}
+.top, .mid, .bot{
+    border: 5px dotted #221da1;
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
