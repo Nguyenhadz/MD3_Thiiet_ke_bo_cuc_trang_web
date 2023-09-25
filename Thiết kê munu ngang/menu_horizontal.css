@@ -1,0 +1,36 @@
+body {
+    font-family: Arial serif;
+}
+* {
+    padding: 0;
+    margin: 0;
+}
+.main > ul{
+    display: flex;
+}
+.main li {
+    list-style: none;
+    width: 100px;
+    height: 30px;
+    background-color: black;
+    padding: 0 20px;
+    position: relative;
+    display: flex;
+    line-height: 30px;
+}
+.main li a {
+    text-decoration: none;
+    color: white;
+}
+.main li:hover {
+    background-color: red;
+}
+.main ul ul {
+    position: absolute;
+    top: 30px;
+    left: 10px;
+    visibility: hidden;
+}
+.main > ul > li:hover > ul > li {
+    visibility: visible;
+}
