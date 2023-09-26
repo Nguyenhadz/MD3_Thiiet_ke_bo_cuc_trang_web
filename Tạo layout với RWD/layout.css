@@ -1,0 +1,104 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+.top {
+    width: 100%;
+    height: 30px;
+    background-color: #361f1f;
+    display: flex;
+    line-height: 30px;
+    text-align: center;
+    font-family: Arial, serif;
+    font-size: 10px;
+    color: #ad9090;
+    position: relative;
+}
+.logo {
+    max-width: 100px;
+    padding-right: 10px;
+    padding-left: 10px;
+    background-color: #361f1f
+}
+.Home, .About, .Projects, .Contact {
+    height: 100%;
+    margin-left: 0;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.logo:hover, .Home:hover, .About:hover, .Projects:hover, .Contact:hover, .login:hover {
+    background-color: black;
+    color: white;
+}
+.login {
+    width: 60px;
+    height: 100%;
+    position: absolute;
+    right: 40px;
+    display: flex;
+}
+.login img {
+    width: 30px;
+    height: 30px;
+}
+.mid {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    font-size: 15px;
+    font-family: Arial, serif;
+}
+.mid-left {
+    width: 15%;
+    height: 100%;
+    background-color: #ece5e1;
+}
+.link {
+    width: 100%;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+}
+.mid-left a {
+    text-decoration: none;
+}
+.mid-middle {
+    width: 70%;
+    height: 100%;
+}
+.text1 {
+    height: 40px;
+    line-height: 40px;
+    margin-left: 20px;
+}
+.text2 {
+    height: 120px;
+    margin: 0 20px;
+}
+.text3 {
+    margin: 20px 20px;
+}
+.text4 {
+    height: 40px;
+    line-height: 40px;
+    margin-left: 20px;
+}
+.text5 {
+    height: 20px;
+    line-height: 20px;
+    margin-left: 20px;
+
+}
+.mid-right {
+    width: 15%;
+    height: 100%;
+    background-color: #ece5e1;
+}
+.bot {
+    width: 100%;
+    height: 30px;
+    background-color: #361f1f;
+}
+
+
+
